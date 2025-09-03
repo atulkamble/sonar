@@ -10,8 +10,7 @@ SONAR_PORT="9000"
 
 # Get the ZIP URL from https://www.sonarsource.com/products/sonarqube/downloads/
 # Example (replace with an actual current link):
-# export SONAR_ZIP_URL="https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-<VERSION>.zip"
-: "${SONAR_ZIP_URL:?Set SONAR_ZIP_URL to the official SonarQube ZIP URL}"
+export SONAR_ZIP_URL="https://binaries.sonarsource.com/?prefix=sonarqube/sonarqube-5.1.zip"
 
 # DB settings
 PG_VER="17"
